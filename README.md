@@ -10,6 +10,10 @@ class Program
 {
 static void Main(string[] args)
 {
+//Menu de opções
+
+
+
 Console.WriteLine("Escolha uma opção: ");
 Console.WriteLine("");
 
@@ -31,6 +35,10 @@ Console.WriteLine("");
 Console.WriteLine("Digite a opção desejada: ");
 string op = Console.ReadLine();
 int opcao = Convert.ToInt16(op);
+
+
+
+//Verificação do menu; cálculo; impressão.
 
 
 
@@ -220,6 +228,8 @@ break;
 
 
 }
+
+//Verificação de comando incorretos
 
 
 
